@@ -46,7 +46,7 @@ Jiang, J.Q., Ashekuzzaman, S.M., Jiang, A., Sharifuzzaman, S.M. and Chowdhury, S
 Kumar, A., Robin, H., Tieger, B. and Patrick, L.G. (2008) Cost-Effectiveness of Arsenic Adsorbents. Curran Associates, I. (ed), pp. 1488-1499, American Water Works Association, Atlanta, Georgia
 '''
 
-paper_info= re.findall(r"(\d{4}[a-z]*)([). ]+)([ \"])+([\w\s_():/,—-]*)(\.)",c)
+paper_info= re.findall(r"(\d{4}[a-z]*)([) ]+)([ \"])+([\w\s_():/,—-]*)(\.)",c)
 print "Analysing titles"
 print "The following titles found:"
 print "*************************"
